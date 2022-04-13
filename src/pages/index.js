@@ -1,26 +1,26 @@
 import * as React from "react"
-
 // styles
 const pageStyles = {
-  color: "#232129",
-  padding: 96,
+  color: "#FA8072",
+  padding: 120,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 320,
+  color: "#8B008B",
 }
 const headingAccentStyles = {
-  color: "#663399",
+  color: "#C71585",
 }
 const paragraphStyles = {
   marginBottom: 48,
 }
 const codeStyles = {
-  color: "#8A6534",
+  color: "#00FF7F",
   padding: 4,
-  backgroundColor: "#FFF4DB",
+  backgroundColor: "#DB7093",
   fontSize: "1.25rem",
   borderRadius: 4,
 }
@@ -38,7 +38,7 @@ const listItemStyles = {
 const linkStyle = {
   color: "#8954A8",
   fontWeight: "bold",
-  fontSize: 16,
+  fontSize: 20,
   verticalAlign: "5%",
 }
 
@@ -49,24 +49,25 @@ const docLinkStyle = {
 }
 
 const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
+  color: "#22222",
+  fontSize: 22,
   marginTop: 10,
   marginBottom: 0,
   lineHeight: 1.25,
 }
 
 const docLink = {
-  text: "Documentation",
+  text: "Fehminina",
   url: "https://www.gatsbyjs.com/docs/",
   color: "#8954A8",
+
 }
 
 const badgeStyle = {
   color: "#fff",
   backgroundColor: "#088413",
   border: "1px solid #088413",
-  fontSize: 11,
+  fontSize: 20,
   fontWeight: "bold",
   letterSpacing: 1,
   borderRadius: 4,
@@ -74,54 +75,49 @@ const badgeStyle = {
   display: "inline-block",
   position: "relative",
   top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
+  marginLeft: 20,
+  lineHeight: 5,
 }
 
 // data
 const links = [
   {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
+    text: "Fehminina",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
+      "Eu, o Senhor, examino os pensamentos e ponho à prova os corações. Eu trato cada pessoa conforme a sua maneira de viver, de acordo com o que ela faz. - Jeremias 17:10 NTLH",
+    color: "#BC8F8F",
+    fontSize: 50,
   },
   {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
+    text: "Quais são as motivações que direcionam suas decisões?",
     description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
+      "Essa auto avaliação precisa ser diária! Lamentar pelos erros nos paralisa, mas quando enxergamos as intenções do nossos corações à luz da palavra de Deus, encontramos o caminho certo para a verdadeira mudança!",
+    color: "#BC8F8F",
   },
   {
     text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
     description:
       "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
+    color: "#BC8F8F",
   },
   {
     text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
     description:
       "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
+    color: "#BC8F8F",
   },
   {
     text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
     description:
       "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
+    color: "#BC8F8F",
   },
   {
     text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
     badge: true,
     description:
       "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
+    color: "#BC8F8F",
   },
 ]
 
@@ -131,18 +127,18 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Congratulations
+        Fehminina
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
+        <span style={headingAccentStyles}> Fé e Feminilidade! 🌹
+        <br></br>
+Psicopedagogiando na maternidade!📚🧠🌻</span>
+        <>
+        </>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
+        <code style={codeStyles}>Encontramos a essência da feminilidade em nosso criador! Ele é perfeito, ele não erra!</code>
+        <span role="img" aria-label="Raising Hands smiley emoji">🙌
+          
         </span>
       </p>
       <ul style={listStyles}>
