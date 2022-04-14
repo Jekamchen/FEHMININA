@@ -2,7 +2,7 @@ import * as React from "react"
 // styles
 const pageStyles = {
   color: "#FA8072",
-  padding: 120,
+  padding: 50,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
@@ -31,7 +31,7 @@ const listStyles = {
 const listItemStyles = {
   fontWeight: 300,
   fontSize: 24,
-  maxWidth: 560,
+  maxWidth: 700,
   marginBottom: 30,
 }
 
@@ -45,11 +45,11 @@ const linkStyle = {
 const docLinkStyle = {
   ...linkStyle,
   listStyleType: "none",
-  marginBottom: 24,
+  marginBottom: 50,
 }
 
 const descriptionStyle = {
-  color: "#22222",
+  color: "#DC143C",
   fontSize: 22,
   marginTop: 10,
   marginBottom: 0,
@@ -57,20 +57,19 @@ const descriptionStyle = {
 }
 
 const docLink = {
-  text: "Fehminina",
-  url: "https://www.gatsbyjs.com/docs/",
+  text: "As vezes, as pessoas cometem o erro de tentar nunca mais pensar no fracasso. A verdade é que podemos aprender muito mais com os erros cometidos!",
   color: "#8954A8",
 
 }
 
 const badgeStyle = {
   color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 20,
+  backgroundColor: "#623812",
+  border: "1px solid #077413",
+  fontSize: 50,
   fontWeight: "bold",
   letterSpacing: 1,
-  borderRadius: 4,
+  borderRadius: 8,
   padding: "4px 6px",
   display: "inline-block",
   position: "relative",
@@ -82,11 +81,11 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Fehminina",
+    text: "Versículo Bíblico",
     description:
       "Eu, o Senhor, examino os pensamentos e ponho à prova os corações. Eu trato cada pessoa conforme a sua maneira de viver, de acordo com o que ela faz. - Jeremias 17:10 NTLH",
     color: "#BC8F8F",
-    fontSize: 50,
+    fontSize: 100,
   },
   {
     text: "Quais são as motivações que direcionam suas decisões?",
@@ -95,15 +94,15 @@ const links = [
     color: "#BC8F8F",
   },
   {
-    text: "Reference Guides",
+    text: "Lembrete",
     description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
+      "O amor que você dá aos outros nunca deve depender do que você recebe de volta, mas deve ser fruto de conhecer o Deus que amou primeiro!",
     color: "#BC8F8F",
   },
   {
-    text: "Conceptual Guides",
+    text: "Versículo Bíblico",
     description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
+      "Portanto, eu digo, os muitos pecados dela lhe foram perdoados; pois ela amou muito. Mas aquele a quem pouco foi perdoado, pouco ama.- Lucas 7:47 NVI",
     color: "#BC8F8F",
   },
   {
